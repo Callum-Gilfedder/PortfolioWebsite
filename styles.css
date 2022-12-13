@@ -2,11 +2,10 @@
 :root {
     --background-dark-mode:  rgb(35, 35, 35);
     --background-alt-dark-mode: rgb(50, 50, 50);
-    --background-light-mode: white;
-
+    --background-light-mode: rgb(230, 230, 230);
+    --background-alt-light-mode: rgb(196, 194, 194);
     --text-dark-mode: white;
     --text-light-mode: black;
-
   }
   
 
@@ -27,18 +26,33 @@ body {
     width: 100vw;
 }
 
+.page-light {
+    background-color: var(--background-light-mode);
+ }
+
+ .page-alt-light {
+    background-color: var(--background-alt-light-mode) ;
+ }
+
+
+
+
 nav {
     background-color: var(--background-alt-dark-mode);
+    color: var(--text-dark-mode);
     height: 5vh;
     width: 100%;
     font-family: 'Montserrat';
     font-size: large;
+}
 
-
+.nav-light {
+    background-color: var(--background-alt-light-mode);
+    color: var(--text-light-mode);
+    
 }
 
 ul { 
-    color: white;
     list-style-type: none;
     padding-left: 2%;
     /* Overriding automatic settings below */
