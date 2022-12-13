@@ -1,24 +1,39 @@
 
+:root {
+    --background-dark-mode:  rgb(35, 35, 35);
+    --background-alt-dark-mode: rgb(50, 50, 50);
+    --background-light-mode: white;
+
+    --text-dark-mode: white;
+    --text-light-mode: black;
+
+  }
+  
+
 body {
     margin: 0px;
+
 }
 
 .page { 
-    background-color: rgb(35, 35, 35);
+    background-color: var(--background-dark-mode);
     height: 100vh;
     width: 100vw;
 }
 
 .page-alt { 
-    background-color: rgb(50, 50, 50);
+    background-color: var(--background-alt-dark-mode);
     height: 100vh;
     width: 100vw;
 }
 
 nav {
-    background-color: blue;
+    background-color: var(--background-alt-dark-mode);
     height: 5vh;
     width: 100%;
+    font-family: 'Montserrat';
+    font-size: large;
+
 
 }
 
@@ -50,5 +65,5 @@ li {
 /* Overrides styling on left hand side element of nav bar */
 .nav-left {
     float: left;
-    margin-left: 2vw;
+    margin-left: 0vw;
 }
