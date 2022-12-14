@@ -14,6 +14,20 @@ function toggleTheme() {
     let nav = document.getElementById("navbar") 
     nav.classList.toggle("nav-light")
 
+    let h1 = document.getElementsByTagName("h1")
+    for (let h1s of h1) {
+        h1s.classList.toggle("h1-light")
+    }
+
+    
+    let h2 = document.getElementsByTagName("h2")
+    console.log(h2)
+    for (let h2s of h2) {
+        h2s.classList.toggle("h2-light")
+    }
+
+
+
     if (toggleButton.innerHTML === "Light Mode") {
         toggleButton.innerHTML = "Dark Mode";
     } else if (toggleButton.innerHTML = "Dark Mode") {
@@ -30,17 +44,25 @@ ul.classList.toggle("ul-after")
 let nav = document.getElementById("navbar") 
 nav.classList.toggle("nav-after")
 
+
+
+var state = ""; 
+var count = 0;
+
 function toggleMenu () {
     if (burger.innerHTML == "☰ Expand Menu") {
         burger.innerHTML = "☰ Collapse Menu";
+        state = "open";
+
     } else if (burger.innerHTML = "☰ Collapse Menu") {
         burger.innerHTML = "☰ Expand Menu";
+        state = "closed";
     }
-
     ul.classList.toggle("ul-after")
-
     nav.classList.toggle("nav-after")
+
 }
+
 
 // Slide to page
 
