@@ -2,8 +2,8 @@
 :root {
     --background-dark-mode:  rgb(35, 35, 35);
     --background-alt-dark-mode: rgb(50, 50, 50);
-    --background-light-mode: rgb(230, 230, 230);
-    --background-alt-light-mode: rgb(196, 194, 194);
+    --background-light-mode: #F4F4F2;
+    --background-alt-light-mode: #E8E8E8;
     --text-dark-mode: white;
     --text-light-mode: black;
   }
@@ -80,4 +80,79 @@ li {
 .nav-left {
     float: left;
     margin-left: 0vw;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .nav-after {
+        height: 5vh;
+    }
+
+    .ul-after {
+        display: none;
+    }
+
+    .hidden {
+        display: inline;
+    }
+    
+    nav {
+        background-color: var(--background-alt-dark-mode);
+        color: var(--text-dark-mode);
+        height: 23vh;
+        width: 100%;
+        font-family: 'Montserrat';
+        font-size: large;
+    }
+    
+    ul { 
+        list-style-type: none;
+        padding-left: 2%;
+        /* Overriding automatic settings below */
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+        /* Centering words in navbar vertically */
+        padding-bottom: 1.5vh;
+        /* margin-left: 36vw; */
+        margin-right: 2vw;
+        width: 100vw;
+        padding-top: 2px;
+        /* Reverses ordering of li's */
+        display: flex;
+        flex-direction: column-reverse;    
+    }
+    
+    li {
+        display: block;
+        width: 100vw;
+        height: 3vh;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 2px;
+        margin-bottom: 2px;
+
+    }
+
+    .nav-left {
+        float: left;
+        margin-left: 0vw;
+   }
+
+    #burger {
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 0vh;
+
+
+    }
+   
+
 }
