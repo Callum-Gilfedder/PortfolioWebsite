@@ -7,6 +7,7 @@
     --background-alt-light-mode: #dfdcdc;
     --text-dark-mode: white;
     --text-light-mode: black;
+    --subtext-grey: rgba(220, 220, 220, 0.589);
 
   }
   
@@ -43,7 +44,7 @@ body {
     font-weight: 300;
 
     font-family: 'Montserrat';
-    padding-top: 42vh;
+    padding-top: 0vh;
     padding-left: 15vw;
 
     font-size: 7vh;
@@ -51,12 +52,18 @@ body {
     width: 45vw;
 }
 
-img {
-    width: 25vw;
-    height: auto;
-    padding-top: 30vh;
 
+
+img {
+    width: 20vw;
+    height: auto;
+    border-radius: 20px;
     
+}
+
+.img-container {
+    padding-top: 30vh;
+    padding-left: 2vw;
 }
 
 h1 {
@@ -74,8 +81,10 @@ h1 {
 
 }
 
+
+
 .h1-light {
-    color: var(--lighter-grey)
+    color: var(--lighter-grey);
 }
 
 h2 { 
@@ -84,7 +93,7 @@ h2 {
     padding-top: 0vh;
     margin-top: 0vh;
     font-size: 2vh;
-    color: white;
+    color: var(--subtext-grey);
     align-items: left;
     width: 30vw;
     margin-right: 0px;
@@ -95,10 +104,16 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     display: block;
+    padding-left: 15.5vw;
+    
 
-    padding-left: 15vw;
 
+}
 
+.subtext { 
+    font-size: 1.65vh;
+    color: var(--subtext-grey);
+    padding-top: 40vh;
 }
 
 .h2-light {
@@ -189,9 +204,14 @@ li:hover {
 @media only screen and (max-width: 600px) {
 
     img {
-        margin-top: 20vh;
+        width: auto;
+        height: 20vh; 
+        margin-top: 15vh;
     }
-
+    
+    .img-container {
+        padding-left: 
+    }
 
     .nav-after {
         height: 5vh;
@@ -205,6 +225,12 @@ li:hover {
         display: inline;
     }
     
+
+    
+    .h1-light {
+        color: var(--lighter-grey);
+    }
+
     nav {
         background-color: var(--background-alt-dark-mode);
         color: var(--text-dark-mode);
@@ -265,10 +291,17 @@ li:hover {
 
 @media only screen and (max-width: 1400px) {
 
-    img {
+
+    .img-container {
         padding-left: 36vw;
         padding-top: 0vh;
         padding-bottom: 10vh;
+
+
+    }
+
+    .subtext {
+        padding-top: 14vh;
     }
 
     .introh1 {
@@ -282,13 +315,18 @@ li:hover {
         font-weight: 300;
     
         font-family: 'Montserrat';
-        padding-top: 18vh;
+        padding-top: 0vh;
         padding-left: 33vw;
     
         font-size: 7vh;
         color: var(--text-dark-mode);
         width: 45vw;
     }
+
+    .h1-light {
+        color: var(--lighter-grey);
+    }
+    
 
     h2 { 
         font-weight: 300;
