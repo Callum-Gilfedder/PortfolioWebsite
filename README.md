@@ -11,3 +11,4 @@ github repo.
 
 
 
+* z index is fixed for navbar.
