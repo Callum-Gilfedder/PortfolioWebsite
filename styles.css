@@ -454,7 +454,89 @@ p {
 
 
 
+    /* EDITED PAGE TWO */
+
+    .page-2-first-container {
+        width: 80vw;
+        height: 80vh;
+        margin-left: 10vw;
+        position: relative;
+        top: 10vh;
+        display: grid;
+        grid-template-columns: 20vw 20vw 20vw 20vw 20vw ;
+        grid-template-rows: 20vh 20vh 20vh ;
+        grid-gap: 2vw;
+    }
     
+    .page-2-container-grid-item {
+        width: auto;
+        height: auto;
+    }
+    
+    .page-2-container-grid-item-section-1 {
+        width: auto;
+        height: auto;
+        grid-column: 1/6;
+        grid-row: 1/3;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .page-2-container-grid-item-section-2 {
+        width: auto;
+        height: auto;
+        grid-column: 1/6;
+        grid-row: 3/6;
+        
+    }
+    
+    .page-2-image-1 {
+        width: 35vw;
+        height: auto;
+        flex-shrink: 0;
+        align-self: center;
+        object-fit: cover;
+        float: left;
+        margin-right: 33vw;
+        
+    }
+    
+    .page-2-h1 {
+        float: left;
+        padding-top: 0vh;
+    }
+    
+    .minor-nav {
+        margin-top: 10vh;
+        margin-left: 7px;
+    
+    }
+    
+    .page-2-h2 {
+        padding-left: 0vh;
+        display: inline;
+        margin-right: 2vw;
+        transition: all 0.4s;
+    
+    }
+    
+    .page-2-h2:hover {
+        
+        color: crimson;
+    }
+    
+    p {
+        font-weight: 300;
+        font-family: 'Montserrat';
+        padding-top: 3vh;
+        margin-top: 0vh;
+        font-size: 1.5vh;
+        color: var(--text-dark-mode);
+        width: 75vw;
+        margin-left: 7px;
+    
+    }
 
 
 
