@@ -286,6 +286,39 @@ p {
     color: var(--text-light-mode);
 }
 
+/* PAGE 3 HERE */
+
+.page-3-first-container {
+    width: 80vw;
+    height: 70vh;
+    margin-left: 10vw;
+    position: relative;
+    top: 10vh;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw  ;
+    grid-template-rows: 80vh ;
+    grid-gap: 2vw;
+}
+
+.page-3-container-item {
+    width: 25vw;
+    height: 60vh;
+    background-color: var(--background-alt-dark-mode);
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.178);
+}
+
+.page-3-container-item:hover {
+    box-shadow: none;
+}
+.page-3-h1 {
+    padding-left: 40vw;
+    padding-top: 10vh;
+    margin-bottom: 0px;
+}
+
+
+
 
 
 
@@ -376,6 +409,15 @@ p {
    
 
 }
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1400px) {
 

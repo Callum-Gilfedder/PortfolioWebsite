@@ -5,5 +5,9 @@
 * Change portrait photo background? Or maybe keep red but add more red to website?
 * Need to change first introduction photo to something else.
 
+* Page 3: Large h1 title at top of each card. Then small text stating languages slightly below html css js. Short explanation. Then link 
+to github page / possibly even a hosted website version but that seems excessive. Best is to just add those gifs to start of my 
+github repo.
+
 
 
