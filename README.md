@@ -3,3 +3,7 @@
 * Maybe need to improve background visuals.
 * Add fade in on load up and add fade in when navigating to new page.
 * Change portrait photo to square?
+* Change portrait photo background? Or maybe keep red but add more red to website?
+* The three images change size when selecting between them.
+
+
