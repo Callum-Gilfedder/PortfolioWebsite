@@ -373,16 +373,16 @@ p {
     z-index: 1;
     position: absolute;
     filter: invert(100%);
-    left: 14vw;
-    top: 45vh;
+    padding-left: 14vw;
+    padding-top: 45vh;
 }
 
 .github-link {
     font-size: 1.5vw;
     z-index: 1;
     position: absolute;
-    left: 5vw;
-    top: 48vh;
+    padding-left: 5vw;
+    padding-top: 48vh;
 }
 
 
@@ -558,6 +558,26 @@ p {
     
     }
     
+
+    .github-logo {
+        width: 12vw;
+        height: auto;
+        z-index: 1;
+        position: absolute;
+        filter: invert(100%);
+        padding-left: 47vw;
+        padding-bottom: 10vh;
+        margin-top: 0vh;
+        padding-top:10vh;
+    }
+    
+    .github-link {
+        font-size: 4vw;
+        z-index: 1;
+        position: absolute;
+        padding-left: 22vw;
+        padding-top: 11.5vh;
+    }
 
 
 

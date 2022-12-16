@@ -5,4 +5,10 @@
 * Change portrait photo background? Or maybe keep red but add more red to website?
 * Need to change first introduction photo to something else.
 * z index is fixed for navbar.
+
+
 * Fix github link undoing hover animation for card.
+* Could fix this by adding hover event listener to every single element of the card? Alot of effort but may be only solution.
+* Add favicon.
+
+* Could improve paragraph formats when actually adding correct text.
