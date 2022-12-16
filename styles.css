@@ -469,6 +469,7 @@ p {
     font-size: large;
     margin-bottom: 2%;
     font-family: 'Montserrat';
+    transition: all 0.3s;
 
 }
 
@@ -476,9 +477,18 @@ p {
     background-color: var(--form-entries-light);
     border-color: grey; 
     color: var(--background-alt-dark-mode);
+    transition: all 0.3s;
 
 
 
+
+}
+
+.form-1:hover {
+    color: crimson;
+}
+.form-1-light:hover {
+    color: crimson;
 }
 
 .form-1-button {
