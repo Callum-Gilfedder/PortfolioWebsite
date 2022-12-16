@@ -8,6 +8,9 @@
     --text-dark-mode: white;
     --text-light-mode: black;
     --subtext-grey: rgba(220, 220, 220, 0.589);
+    --form-light:rgb(212, 210, 210);
+    --form-entries-light:rgb(234, 234, 234);
+
 
   }
   
@@ -307,13 +310,24 @@ p {
     height: 60vh;
     background-color: var(--background-alt-dark-mode);
     border-radius: 20px;
-    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.178);
+    box-shadow: 0px 3px 7px rgba(255, 255, 255, 0.6);
     display: inline-block;
+    transition: all 0.3s;
+
+
+}
+
+.page-3-container-item-light {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(53, 52, 52, 0.6);
+    transition: all 0.3s;
+
 
 }
 
 .page-3-container-item:hover {
     box-shadow: none;
+
     
 }
 .page-3-h1 {
@@ -327,6 +341,7 @@ p {
     height: 100%;
     object-fit: cover;
     opacity: 0.3;
+    transition: all 0.3s;
 }
 
 .page-3-img:hover {
@@ -353,6 +368,10 @@ p {
     color: var(--subtext-grey);
 }
 
+.page-3-subtext-light {
+    color: var(--lighter-grey)
+}
+
 .page-3-paragraph {
     font-size: 0.9vw;
     z-index: 0;
@@ -365,6 +384,10 @@ p {
     width: 21vw;
 }
 
+.page-3-paragraph-light {
+    color: var(--text-light-mode)
+}
+
 .github-logo {
     width: 5vw;
     z-index: 1;
@@ -372,6 +395,10 @@ p {
     filter: invert(100%);
     padding-left: 14vw;
     padding-top: 45vh;
+}
+
+.github-logo-light {
+    filter: invert(35%);
 }
 
 .github-link {
@@ -403,9 +430,15 @@ p {
     display: inline-block;
     border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.401);
+}
 
+.page-4-container-item-1-light {
+    background-color: var(--form-light);
+    box-shadow: 0px 0px 10px rgba(53, 52, 52, 0.6);
 
 }
+
+
 
 .page-4-container-item-2 {
     width: 55vw;
@@ -414,8 +447,14 @@ p {
     display: inline-block;
     border-radius: 20px;
     box-shadow:  0px 5px 10px rgba(255, 255, 255, 0.401);
+}
+
+.page-4-container-item-2-light {
+    background-color: var(--form-light);
+    box-shadow: 0px 0px 10px rgba(53, 52, 52, 0.6);
 
 }
+
 
 .form-1 {
     width: 80%;
@@ -433,11 +472,21 @@ p {
 
 }
 
+.form-1-light {
+    background-color: var(--form-entries-light);
+    border-color: grey; 
+    color: var(--background-alt-dark-mode);
+
+
+
+}
+
 .form-1-button {
     margin-left: 40%;
     width: 15%;
     margin-top: 2%;
 }
+
 
 .form-headings {
     font-size: 1.5vw;
@@ -464,7 +513,7 @@ textarea {
 }
 
 .link-title {
-    margin-top: 6%;
+    margin-top: 6.5%;
     margin-left: 33%;
     font-size: 3vw;
 }

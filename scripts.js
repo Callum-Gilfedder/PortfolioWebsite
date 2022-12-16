@@ -33,7 +33,40 @@ function toggleTheme() {
 
     }
 
+    let pageThreeItems = document.getElementsByClassName("page-3-container-item")
+    console.log(pageThreeItems)
+    for (let x of pageThreeItems) {
+        x.classList.toggle("page-3-container-item-light")
+    }
 
+    let pageThreeSubtext = document.getElementsByClassName("page-3-subtext")
+    for (let x of pageThreeSubtext) {
+        x.classList.toggle("page-3-subtext-light")
+    }
+    
+    let pageThreeParagraph = document.getElementsByClassName("page-3-paragraph")
+    for (let x of pageThreeParagraph) { 
+        x.classList.toggle("page-3-paragraph-light")
+    }
+
+    let githubLogos = document.getElementsByClassName("github-logo")
+    for (let x of githubLogos) {
+        x.classList.toggle("github-logo-light")
+    }
+
+    document.getElementById("page-4-container-item-2").classList.toggle("page-4-container-item-2-light")
+
+    document.getElementById("page-4-container-item-1").classList.toggle("page-4-container-item-1-light")
+
+    let formEntries = document.getElementsByClassName("form-1")
+    for (let x of formEntries) {
+        x.classList.toggle("form-1-light")
+    }
+
+    let formButton = document.getElementsByClassName("form-button")
+    for (let x of formButton) {
+        x.classList.toggle("form-button-light")
+    }
 
     if (toggleButton.innerHTML === "Light Mode") {
         toggleButton.innerHTML = "Dark Mode";
