@@ -443,6 +443,7 @@ p {
     font-size: 1.5vw;
     margin-left: 10%;
     margin-bottom: 1%;
+    width: 33%;
 
 }
 
@@ -460,8 +461,18 @@ span {
 textarea {
     font-family: 'Montserrat';
     border-width: 2px;
-
 }
+
+.link-title {
+    margin-top: 6%;
+    margin-left: 33%;
+    font-size: 3vw;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 
 
