@@ -12,3 +12,10 @@
 * Add favicon.
 
 * Could improve paragraph formats when actually adding correct text.
+* Add a footer maybe?
+* Maybe add a very faint textured background to my website to add texture.
+* Definately need to improve responsiveness. Not good enough at the minute.
+
+* Upload disseratation code to github and add gif displaying a simulation I did at some point.
+
+* Fix page 3 light mode styles.
