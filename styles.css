@@ -12,6 +12,7 @@
   }
   
 
+
 body {
     margin: 0px;
 
@@ -325,16 +326,16 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.2;
+    opacity: 0.3;
 
 
 
 }
 
 .page-3-img:hover {
-    opacity: 0.1;
-
+    opacity: 0.05;
 }
+
 
 .page-3-card-title { 
     font-size: 2vw;
@@ -364,11 +365,25 @@ p {
     font-weight: 300;
     font-family: 'Montserrat';
     color: white;
-    width: 23vw;
-
-
+    width: 21vw;
 }
 
+.github-logo {
+    width: 5vw;
+    z-index: 1;
+    position: absolute;
+    filter: invert(100%);
+    left: 14vw;
+    top: 45vh;
+}
+
+.github-link {
+    font-size: 1.5vw;
+    z-index: 1;
+    position: absolute;
+    left: 5vw;
+    top: 48vh;
+}
 
 
 
@@ -458,9 +473,97 @@ p {
     .page1-container-item-2 {
         width: 100vw;
     }
-   
+    /* PAGE 3 <600 STLYES */
+
+    .page-3-first-container {
+        width: 80vw;
+        height: 70vh;
+        margin-left: 10vw;
+        position: relative;
+        top: 10vh;
+        display: grid;
+        grid-template-rows: 20vh 20vh 20vh  ;
+        grid-template-columns: 80vw ;
+        grid-gap: 2vw;
+    }
+    
+    .page-3-container-item {
+        width: 80vw;
+        height: 20vh;
+        background-color: var(--background-alt-dark-mode);
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.178);
+        display: inline-block;
+    
+    }
+    
+    .page-3-container-item:hover {
+        box-shadow: none;
+        
+    }
+    .page-3-h1 {
+        padding-left: 5vw;
+        padding-top: 5vh;
+        margin-bottom: 0px;
+    }
+    
+    .page-3-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.3;
+        margin-top: 0;
+    
+    
+    
+    }
+    
+    .page-3-img:hover {
+        opacity: 0.05;
+    }
+    
+    
+    .page-3-card-title { 
+        font-size: 6vw;
+        width: 70vw;
+        z-index: 0;
+        position: absolute;
+        padding-top: 2vh;
+        padding-left: 1.7vh;
+    }
+    
+    .page-3-subtext {
+        font-size: 3vw;
+        z-index: 0;
+        position: absolute;
+        padding-top: 6vh;
+        padding-left: 1.7vh;
+        font-weight: 300;
+        font-family: 'Montserrat';
+        color: var(--subtext-grey);
+    }
+    
+    .page-3-paragraph {
+        font-size: 1.5vw;
+        z-index: 0;
+        position: absolute;
+        padding-top: 6.5vh;
+        padding-left: 1vh;
+        font-weight: 300;
+        font-family: 'Montserrat';
+        color: white;
+        width: 70vw;
+        display: none;
+    
+    
+    }
+    
+
+
 
 }
+
+
 
 
 
