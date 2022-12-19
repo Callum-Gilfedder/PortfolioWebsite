@@ -33,3 +33,5 @@ just because it was difficult to implement.
 * Added grey background images but it might be too grey now. Maybe revert back.
 
 * Page 4 links working.
+
+* Need to do responsive overhaul. 

@@ -187,7 +187,7 @@ nav {
     width: 100vw;
     font-family: 'Montserrat';
     font-size: large;
-    z-index: 1;
+    z-index: 1000;
     transition: all 0.3s;
 
 }
@@ -844,6 +844,8 @@ a {
     }
 
     nav {
+        position: fixed;
+
         background-color: var(--background-alt-dark-mode);
         color: var(--text-dark-mode);
         height: 23vh;

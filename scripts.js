@@ -125,10 +125,12 @@ function toggleMenu () {
         burger.innerHTML = "☰ Expand Menu";
         state = "closed";
     }
+
     ul.classList.toggle("ul-after")
     nav.classList.toggle("nav-after")
 
 }
+
 
 
 // Slide to page
