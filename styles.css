@@ -156,7 +156,6 @@ h2 {
 
 .page-alt { 
     /* background-image: radial-gradient(500px 500px at 100px 100px, white  , var(--background-dark-mode)); */
-
     background-color: var(--background-alt-dark-mode);
     height: 100vh;
     width: 100vw;

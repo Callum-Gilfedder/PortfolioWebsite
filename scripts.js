@@ -8,13 +8,13 @@
 //     console.log(e.clientX, e.clientY);
 //     let x = document.getElementsByClassName("page");
 //     for (xs of x) {
-//         xs.style.backgroundImage = "radial-gradient(500px 500px at " + e.clientX  + "px " + e.clientY + "px, var(--gradient-grey), var(--background-dark-mode))"
+//         xs.style.backgroundImage = "radial-gradient(700px 700px at " + e.clientX  + "px " + e.clientY + "px, var(--gradient-grey), var(--background-dark-mode))"
 
 //     } 
 
 //     let y = document.getElementsByClassName("page-alt");
 //     for (ys of y) {
-//         ys.style.backgroundImage = "radial-gradient(500px 500px at " + e.clientX  + "px " + e.clientY + "px, var(--gradient-grey-alt), var(--background-alt-dark-mode))"
+//         ys.style.backgroundImage = "radial-gradient(700px 700px at " + e.clientX  + "px " + e.clientY + "px, var(--gradient-grey-alt), var(--background-alt-dark-mode))"
 
 //     } 
 // }
@@ -25,6 +25,14 @@
 let toggleButton = document.getElementById("toggle")
 toggleButton.addEventListener("click", toggleTheme)
 function toggleTheme() {
+    var themeState = "Dark mode"; // default
+    if (toggleButton.innerHTML === "Light Mode") {
+        themeState = "Light mode";
+        console.log(themeState)
+    } else if (toggleButton.innerHTML = "Dark Mode") {
+        themeState = "Dark mode";
+        console.log(themeState)    
+    }    
     let page = document.getElementsByClassName("page")
     for (let pages of page) {
         pages.classList.toggle("page-light")
@@ -43,20 +51,17 @@ function toggleTheme() {
 
     
     let h2 = document.getElementsByTagName("h2")
-    console.log(h2)
     for (let h2s of h2) {
         h2s.classList.toggle("h2-light")
     }
 
     let p = document.getElementsByClassName("page-2-paragraph")
-    console.log(p)
     for (ps of p) {
         ps.classList.toggle("p-light")
 
     }
 
     let pageThreeItems = document.getElementsByClassName("page-3-container-item")
-    console.log(pageThreeItems)
     for (let x of pageThreeItems) {
         x.classList.toggle("page-3-container-item-light")
     }
@@ -96,11 +101,11 @@ function toggleTheme() {
         toggleButton.innerHTML = "Light Mode";
     }    
 
-
-
-
-
 }
+
+
+// Mouse hover affect // 
+
 
 
 // Burger MENU toggle //
@@ -120,15 +125,12 @@ function toggleMenu () {
     if (burger.innerHTML == "☰ Expand Menu") {
         burger.innerHTML = "☰ Collapse Menu";
         state = "open";
-
     } else if (burger.innerHTML = "☰ Collapse Menu") {
         burger.innerHTML = "☰ Expand Menu";
         state = "closed";
     }
-
     ul.classList.toggle("ul-after")
     nav.classList.toggle("nav-after")
-
 }
 
 
@@ -164,7 +166,7 @@ function contactButton() {
 let introductionInfoButton = document.getElementById("introduction-info-button")
 introductionInfoButton.addEventListener("click", introductionInfoFunction)
 function introductionInfoFunction () {
-    document.getElementById("page-2-paragraph").innerHTML = "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+    document.getElementById("page-2-paragraph").innerHTML = "Currently working as a cloud specialist at Go Deploy. I am responsible for the creation and upkeep of tutorials aimed at IT professionals. Initially I was trainined in Azure, AWS and GCP, then I helped create a number of cloud tutorials for the company. As time progressed my focus shifted towards software development tutorials. This sparked my passion for software development. I created a variety of  tutorials and courses on different programming languages. This lead to a deeper understanding of languages such as Python, HTML, CSS and JavaScript. Experienced in many fields of mathematics with strengths in applied, pure and computational mathematics. You can explore more details of my education and experience here and you can view a selection of projects from my portfolio on the page below.   "
     document.getElementById("page-2-h1").innerHTML = "Introduction"
     document.getElementById("page-2-image").src = "profile-pic (21).png"
 
