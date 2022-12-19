@@ -2,6 +2,10 @@
 :root {
     --background-dark-mode:  rgb(35, 35, 35);
     --background-alt-dark-mode: rgb(50, 50, 50);
+    --gradient-grey:  rgb(46, 46, 46);
+    --gradient-grey-alt:  rgb(58, 58, 58);
+
+
     --lighter-grey: rgb(89, 89, 89);
     --background-light-mode: #e4e3e3df;
     --background-alt-light-mode: #dfdcdc;
@@ -15,6 +19,9 @@
   }
   
 
+#screen-log {
+    display: none;
+}
 
 body {
     margin: 0px;
@@ -54,6 +61,7 @@ body {
     font-size: 7vh;
     color: var(--text-dark-mode);
     width: 45vw;
+    transition: all 0.3s;
 }
 
 
@@ -62,6 +70,8 @@ img {
     width: 20vw;
     height: auto;
     border-radius: 20px;
+    transition: all 0.3s;
+
     
 }
 
@@ -82,6 +92,8 @@ h1 {
     font-size: 7vh;
     color: white;
     width: 30vw;
+    transition: all 0.3s;
+
 
 }
 
@@ -89,6 +101,8 @@ h1 {
 
 .h1-light {
     color: var(--lighter-grey);
+    transition: all 0.3s;
+
 }
 
 h2 { 
@@ -109,6 +123,8 @@ h2 {
     margin-inline-end: 0px;
     display: block;
     padding-left: 15.5vw;
+    transition: all 0.3s;
+
     
 
 
@@ -118,31 +134,46 @@ h2 {
     font-size: 1.65vh;
     color: var(--subtext-grey);
     padding-top: 40vh;
+    transition: all 0.3s;
+
 }
 
 .h2-light {
     color: var(--lighter-grey);
+    transition: all 0.3s;
+
 }
 
 
 .page { 
+    /* background-image: radial-gradient(500px 500px at 100px 100px, white  , var(--background-dark-mode)); */
     background-color: var(--background-dark-mode);
     height: 100vh;
     width: 100vw;
+    transition: all 0.3s;
+
 }
 
 .page-alt { 
+    /* background-image: radial-gradient(500px 500px at 100px 100px, white  , var(--background-dark-mode)); */
+
     background-color: var(--background-alt-dark-mode);
     height: 100vh;
     width: 100vw;
+    transition: all 0.3s;
+
 }
 
 .page-light {
     background-color: var(--background-light-mode);
+    transition: all 0.3s;
+
  }
 
  .page-alt-light {
     background-color: var(--background-alt-light-mode) ;
+    transition: all 0.3s;
+
  }
 
 
@@ -157,11 +188,15 @@ nav {
     font-family: 'Montserrat';
     font-size: large;
     z-index: 1;
+    transition: all 0.3s;
+
 }
 
 .nav-light {
     background-color: var(--background-alt-light-mode);
     color: var(--text-light-mode);
+    transition: all 0.3s;
+
     
 }
 
@@ -180,6 +215,7 @@ ul {
     margin-left: 2vw;
     margin-right: 2vw;
 
+
 }
 
 li {
@@ -187,7 +223,8 @@ li {
     float: right;
     margin-left: 5vw;
     padding-bottom: 2px;
-    transition: all 0.4s;
+    transition: all 0.3s;
+
 }
 
 
@@ -204,6 +241,8 @@ li:hover {
 
 .hidden {
     display: none;
+    transition: all 0.3s;
+
 }
 
 .page-2-first-container {
@@ -216,11 +255,15 @@ li:hover {
     grid-template-columns: 20vw 20vw 20vw 20vw 20vw ;
     grid-template-rows: 20vh 20vh 20vh ;
     grid-gap: 2vw;
+    transition: all 0.3s;
+
 }
 
 .page-2-container-grid-item {
     width: auto;
     height: auto;
+    transition: all 0.3s;
+
 }
 
 .page-2-container-grid-item-section-1 {
@@ -231,6 +274,8 @@ li:hover {
     text-align: center;
     justify-content: center;
     display: flex;
+    transition: all 0.3s;
+
 }
 
 .page-2-container-grid-item-section-2 {
@@ -239,6 +284,8 @@ li:hover {
     grid-column: 3/6;
     grid-row: 1/6;
     max-width: 80vw;
+    transition: all 0.3s;
+
     
 }
 
@@ -248,17 +295,23 @@ li:hover {
     flex-shrink: 0;
     align-self: center;
     object-fit: cover;
+    transition: all 0.3s;
+
     
 }
 
 .page-2-h1 {
     float: left;
     padding-top: 18vh;
+    transition: all 0.3s;
+
 }
 
 .minor-nav {
     margin-top: 27vh;
     margin-left: 7px;
+    transition: all 0.3s;
+
 
 }
 
@@ -284,11 +337,15 @@ p {
     color: var(--text-dark-mode);
     width: 28vw;
     margin-left: 7px;
+    transition: all 0.3s;
+
 
 }
 
 .p-light {
     color: var(--text-light-mode);
+    transition: all 0.3s;
+
 }
 
 /* PAGE 3 HERE */
@@ -303,6 +360,8 @@ p {
     grid-template-columns: 25vw 25vw 25vw  ;
     grid-template-rows: 80vh ;
     grid-gap: 2vw;
+    transition: all 0.3s;
+
 }
 
 .page-3-container-item {
@@ -334,6 +393,8 @@ p {
     padding-left: 40vw;
     padding-top: 10vh;
     margin-bottom: 0px;
+    transition: all 0.3s;
+
 }
 
 .page-3-img {
@@ -342,6 +403,7 @@ p {
     object-fit: cover;
     opacity: 0.3;
     transition: all 0.3s;
+    
 }
 
 .page-3-img:hover {
@@ -355,6 +417,8 @@ p {
     position: absolute;
     padding-top: 2vh;
     padding-left: 2vh;
+    transition: all 0.3s;
+
 }
 
 .page-3-subtext {
@@ -366,10 +430,14 @@ p {
     font-weight: 300;
     font-family: 'Montserrat';
     color: var(--subtext-grey);
+    transition: all 0.3s;
+
 }
 
 .page-3-subtext-light {
-    color: var(--lighter-grey)
+    color: var(--lighter-grey);
+    transition: all 0.3s;
+
 }
 
 .page-3-paragraph {
@@ -382,10 +450,14 @@ p {
     font-family: 'Montserrat';
     color: white;
     width: 21vw;
+    transition: all 0.3s;
+
 }
 
 .page-3-paragraph-light {
-    color: var(--text-light-mode)
+    color: var(--text-light-mode);
+    transition: all 0.3s;
+
 }
 
 .github-logo {
@@ -395,10 +467,14 @@ p {
     filter: invert(100%);
     padding-left: 14vw;
     padding-top: 45vh;
+    transition: all 0.3s;
+
 }
 
 .github-logo-light {
     filter: invert(35%);
+    transition: all 0.3s;
+
 }
 
 .github-link {
@@ -407,6 +483,8 @@ p {
     position: absolute;
     padding-left: 5vw;
     padding-top: 48vh;
+    transition: all 0.3s;
+
 }
 
 /* PAGE 4 */
@@ -421,6 +499,8 @@ p {
     grid-template-columns: 25vw 55vw;
     grid-template-rows: 80vh ;
     grid-gap: 2vw;
+    transition: all 0.3s;
+
 }
 
 .page-4-container-item-1 {
@@ -430,11 +510,15 @@ p {
     display: inline-block;
     border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.401);
+    transition: all 0.3s;
+
 }
 
 .page-4-container-item-1-light {
     background-color: var(--form-light);
     box-shadow: 0px 0px 10px rgba(53, 52, 52, 0.6);
+    transition: all 0.3s;
+
 
 }
 
@@ -447,11 +531,15 @@ p {
     display: inline-block;
     border-radius: 20px;
     box-shadow:  0px 5px 10px rgba(255, 255, 255, 0.401);
+    transition: all 0.3s;
+
 }
 
 .page-4-container-item-2-light {
     background-color: var(--form-light);
     box-shadow: 0px 0px 10px rgba(53, 52, 52, 0.6);
+    transition: all 0.3s;
+
 
 }
 
@@ -495,6 +583,8 @@ p {
     margin-left: 40%;
     width: 15%;
     margin-top: 2%;
+    transition: all 0.3s;
+
 }
 
 
@@ -503,6 +593,8 @@ p {
     margin-left: 10%;
     margin-bottom: 1%;
     width: 33%;
+    transition: all 0.3s;
+
 
 }
 
@@ -515,17 +607,23 @@ span {
     font-size: 3vw;
     margin-left: 32%;
     margin-bottom: 5%;
+    transition: all 0.3s;
+
 }
 
 textarea {
     font-family: 'Montserrat';
     border-width: 2px;
+    transition: all 0.3s;
+
 }
 
 .link-title {
     margin-top: 6.5%;
     margin-left: 33%;
     font-size: 3vw;
+    transition: all 0.3s;
+
 }
 
 a {
@@ -816,9 +914,7 @@ a {
     .page-3-container-item {
         width: 80vw;
         height: 20vh;
-        background-color: var(--background-alt-dark-mode);
         border-radius: 20px;
-        box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.178);
         display: inline-block;
     
     }
@@ -890,7 +986,6 @@ a {
         height: auto;
         z-index: 1;
         position: absolute;
-        filter: invert(100%);
         padding-left: 47vw;
         padding-bottom: 10vh;
         margin-top: 0vh;

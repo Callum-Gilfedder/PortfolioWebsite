@@ -1,3 +1,25 @@
+// Experimental hover affect, only functional for dark mode at the moment.
+
+
+// document.addEventListener('mousemove', logKey);
+
+// function logKey(e) {
+//     // all of above taken from MDN documentation
+//     console.log(e.clientX, e.clientY);
+//     let x = document.getElementsByClassName("page");
+//     for (xs of x) {
+//         xs.style.backgroundImage = "radial-gradient(500px 500px at " + e.clientX  + "px " + e.clientY + "px, var(--gradient-grey), var(--background-dark-mode))"
+
+//     } 
+
+//     let y = document.getElementsByClassName("page-alt");
+//     for (ys of y) {
+//         ys.style.backgroundImage = "radial-gradient(500px 500px at " + e.clientX  + "px " + e.clientY + "px, var(--gradient-grey-alt), var(--background-alt-dark-mode))"
+
+//     } 
+// }
+
+
 // Theme toggle // 
 
 let toggleButton = document.getElementById("toggle")
@@ -142,7 +164,7 @@ introductionInfoButton.addEventListener("click", introductionInfoFunction)
 function introductionInfoFunction () {
     document.getElementById("page-2-paragraph").innerHTML = "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
     document.getElementById("page-2-h1").innerHTML = "Introduction"
-    document.getElementById("page-2-image").src = "profile-pic (4).png"
+    document.getElementById("page-2-image").src = "profile-pic (21).png"
 
 }
 
