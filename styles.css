@@ -499,7 +499,6 @@ p {
     grid-template-rows: 80vh ;
     grid-gap: 2vw;
     transition: all 0.3s;
-
 }
 
 .page-4-container-item-1 {
@@ -558,6 +557,23 @@ p {
     font-family: 'Montserrat';
     transition: all 0.3s;
 
+}
+
+.link-1 {
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 12%;
+    background-color: var(--background-alt-dark-mode);
+    height: 7%;
+    border-radius: 10px;
+    box-shadow: none;
+    border-style: solid;
+    border-color: var(--lighter-grey); 
+    color: var(--text-dark-mode);
+    font-size: large;
+    margin-bottom: 2%;
+    font-family: 'Montserrat';
+    transition: all 0.3s;
 }
 
 .form-1-light {
@@ -1001,6 +1017,83 @@ a {
         padding-top: 11.5vh;
     }
 
+    .page-4-container {
+        width: 80vw;
+        height: 100vh;
+        margin-left: 10vw;
+        position: relative;
+        top: 10vh;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 45vh 25vh ;
+        grid-gap: 6vw;
+        transition: all 0.3s;
+    }
+    
+    .page-4-container-item-1 {
+        width: 80vw;
+        height: 45vh;
+        background-color: var(--background-dark-mode);
+        display: inline-block;
+        border-radius: 20px;
+        box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.401);
+        transition: all 0.3s;
+    
+    }
+    
+
+    
+    
+    
+    .page-4-container-item-2 {
+        width: 80vw;
+        height: 70vh;
+        background-color: var(--background-dark-mode);
+        display: inline-block;
+        border-radius: 20px;
+        box-shadow:  0px 5px 10px rgba(255, 255, 255, 0.401);
+        transition: all 0.3s;
+        
+    
+    }
+
+    .form-1 {
+        width: 80%;
+        margin-left: 10%;
+        background-color: var(--background-alt-dark-mode);
+        height: 7%;
+        border-radius: 10px;
+        box-shadow: none;
+        border-style: solid;
+        border-color: var(--lighter-grey); 
+        color: var(--text-dark-mode);
+        font-size: large;
+        margin-bottom: 2%;
+        font-family: 'Montserrat';
+        transition: all 0.3s;
+    
+    }
+
+    .link-1 {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1%;
+        background-color: var(--background-alt-dark-mode);
+        height: 12%;
+        border-radius: 10px;
+        box-shadow: none;
+        border-style: solid;
+        border-color: var(--lighter-grey); 
+        color: var(--text-dark-mode);
+        font-size: large;
+        margin-bottom: 2%;
+        font-family: 'Montserrat';
+        transition: all 0.3s;
+    }
+    
+    .page-4 {
+        height: 140vh;
+    }
 
 
 }
