@@ -576,6 +576,18 @@ p {
     transition: all 0.3s;
 }
 
+.link-1:hover {
+    color: crimson;
+    
+}
+
+.link-1-light {
+    background-color: var(--form-entries-light);
+    color: var(--text-light-mode);
+
+
+}
+
 .form-1-light {
     background-color: var(--form-entries-light);
     border-color: grey; 

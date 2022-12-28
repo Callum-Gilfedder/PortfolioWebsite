@@ -95,6 +95,11 @@ function toggleTheme() {
         x.classList.toggle("form-button-light")
     }
 
+    let linkButtons = document.getElementsByClassName("link-1")
+    for (let x of linkButtons) {
+        x.classList.toggle("link-1-light")
+    }
+
     if (toggleButton.innerHTML === "Light Mode") {
         toggleButton.innerHTML = "Dark Mode";
     } else if (toggleButton.innerHTML = "Dark Mode") {
