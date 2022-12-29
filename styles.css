@@ -625,7 +625,7 @@ p {
 .link-1-light {
     background-color: var(--form-entries-light);
     color: var(--text-light-mode);
-
+    border-color: grey; 
 
 }
 
@@ -634,9 +634,6 @@ p {
     border-color: grey; 
     color: var(--background-alt-dark-mode);
     transition: all 0.3s;
-
-
-
 
 }
 
@@ -1161,8 +1158,16 @@ a {
         transition: all 0.3s;
     
     }
-    
 
+    
+    
+    .page-4-container-item-1-light {
+        background-color: var(--form-light);
+        box-shadow: 0px 0px 10px rgba(53, 52, 52, 0.6);
+        transition: all 0.3s;
+    
+    
+    }
     
     
     
@@ -1175,6 +1180,14 @@ a {
         box-shadow:  0px 5px 10px rgba(255, 255, 255, 0.401);
         transition: all 0.3s;
         
+    
+    }
+
+    .page-4-container-item-2-light {
+        background-color: var(--form-light);
+        box-shadow: 0px 0px 10px rgba(53, 52, 52, 0.6);
+        transition: all 0.3s;
+    
     
     }
 
@@ -1195,6 +1208,16 @@ a {
     
     }
 
+    .form-1-light {
+        background-color: var(--form-entries-light);
+        border-color: grey; 
+        color: var(--background-alt-dark-mode);
+        transition: all 0.3s;
+
+    }
+
+
+
     .link-1 {
         width: 80%;
         margin-left: 10%;
@@ -1210,6 +1233,14 @@ a {
         margin-bottom: 2%;
         font-family: 'Montserrat';
         transition: all 0.3s;
+    }
+
+    .link-1-light {
+        background-color: var(--form-entries-light);
+        color: var(--text-light-mode);
+        border-color: grey; 
+
+        
     }
     
     .page-4 {
