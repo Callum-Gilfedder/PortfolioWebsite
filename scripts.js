@@ -76,10 +76,16 @@ function toggleTheme() {
         x.classList.toggle("page-3-paragraph-light")
     }
 
-    let githubLogos = document.getElementsByClassName("github-logo")
-    for (let x of githubLogos) {
-        x.classList.toggle("github-logo-light")
-    }
+    let githubLogoOne = document.getElementById("github-logo-1")
+    githubLogoOne.classList.toggle("github-logo-light")
+
+    let githubLogoTwo = document.getElementById("github-logo-2")
+    githubLogoTwo.classList.toggle("github-logo-light")
+
+    let githubLogoThree = document.getElementById("github-logo-3")
+    githubLogoThree.classList.toggle("github-logo-light")
+
+
 
     document.getElementById("page-4-container-item-2").classList.toggle("page-4-container-item-2-light")
 

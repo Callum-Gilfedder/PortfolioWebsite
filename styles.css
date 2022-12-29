@@ -459,13 +459,64 @@ p {
 
 }
 
-.github-logo {
+
+
+.github-link-1 {
+    font-size: 1.5vw;
+    z-index: 1;
+    position: absolute;
+    left: 5vw;
+    top: 48vh;
+    transition: all 0.3s;
+}
+
+.github-logo-1 {
     width: 5vw;
     z-index: 1;
     position: absolute;
     filter: invert(100%);
-    padding-left: 14vw;
-    padding-top: 45vh;
+    left: 14vw;
+    top: 45vh;
+    transition: all 0.3s;
+
+}
+
+.github-link-2 {
+    font-size: 1.5vw;
+    z-index: 1;
+    position: absolute;
+    left: 32vw;
+    top: 48vh;
+    transition: all 0.3s;
+}
+
+.github-logo-2 {
+    width: 5vw;
+    z-index: 1;
+    position: absolute;
+    filter: invert(100%);
+    left: 41vw;
+    top: 45vh;
+    transition: all 0.3s;
+
+}
+
+.github-link-3 {
+    font-size: 1.5vw;
+    z-index: 1;
+    position: absolute;
+    left: 59vw;
+    top: 48vh;
+    transition: all 0.3s;
+}
+
+.github-logo-3 {
+    width: 5vw;
+    z-index: 1;
+    position: absolute;
+    filter: invert(100%);
+    left: 68vw;
+    top: 45vh;
     transition: all 0.3s;
 
 }
@@ -473,18 +524,8 @@ p {
 .github-logo-light {
     filter: invert(35%);
     transition: all 0.3s;
-
 }
 
-.github-link {
-    font-size: 1.5vw;
-    z-index: 1;
-    position: absolute;
-    padding-left: 5vw;
-    padding-top: 48vh;
-    transition: all 0.3s;
-
-}
 
 /* PAGE 4 */
 
@@ -1010,24 +1051,92 @@ a {
     }
     
 
-    .github-logo {
-        width: 12vw;
-        height: auto;
+
+    
+
+
+    .github-link-1 {
+        font-size: 5vw;
         z-index: 1;
         position: absolute;
-        padding-left: 47vw;
-        padding-bottom: 10vh;
+        left: 22vw;
+        top: 10vh;
         margin-top: 0vh;
-        padding-top:10vh;
+        padding-top: 0vh;
+        transition: all 0.3s;
     }
     
-    .github-link {
-        font-size: 4vw;
+    .github-logo-1 {
+        width: 12vw;
+        height: 12vw;
         z-index: 1;
         position: absolute;
-        padding-left: 22vw;
-        padding-top: 11.5vh;
+        filter: invert(100%);
+        left: 52vw;
+        top: -6.5vh;
+        transition: all 0.3s;
+    
     }
+    
+    .github-link-2 {
+        font-size: 5vw;
+        z-index: 1;
+        position: absolute;
+        left: 22vw;
+        top: 31vh;
+        margin-top: 0vh;
+        padding-top:0vh;
+        transition: all 0.3s;
+    }
+    
+    .github-logo-2 {
+        width: 12vw;
+        height: 12vw;
+        z-index: 1;
+        position: absolute;
+        filter: invert(100%);
+        left: 52vw;
+        top: 14.5vh;
+        transition: all 0.3s;
+    
+    }
+    
+    .github-link-3 {
+        font-size: 5vw;
+        z-index: 1;
+        position: absolute;
+        left: 22vw;
+        top: 52vh;
+        margin-top: 0vh;
+        padding-top:0vh;
+        transition: all 0.3s;
+    }
+    
+    .github-logo-3 {
+        width: 12vw;
+        height: 12vw;
+        z-index: 1;
+        position: absolute;
+        filter: invert(100%);
+        left: 52vw;
+        top: 35.5vh;
+        transition: all 0.3s;
+    
+    }
+
+    .github-logo-light {
+        filter: invert(35%);
+        transition: all 0.3s;
+    }
+    
+
+
+
+
+
+
+
+
 
     .page-4-container {
         width: 80vw;
